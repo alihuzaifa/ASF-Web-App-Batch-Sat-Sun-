@@ -5,6 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        .text-box {
+            width: 300px;
+            height: 40px;
+        }
+
+        #btn {
+            background-color: white;
+            color: black;
+            width: 200px;
+            height: 40px;
+        }
+    </style>
 </head>
 
 <body>
@@ -20,7 +39,7 @@
     <!-- <h1>Hello World</h1> -->
 
 
-    <form action="#" method="post">
+    <!-- <form action="#" method="post">
         <p>Please Select your Gender</p>
         <label>
             <input type="radio" name="gender" required checked /> Male
@@ -50,7 +69,80 @@
             <input type="checkbox" name="hobbies" checked required /> Football
         </label>
         <button type="submit">Submit</button>
+    </form> -->
+
+
+
+    <!-- <form action="#" method="post">
+        <label>Please Select your Country?</label>
+        <select name="country" required>
+            <option value=""></option>
+            <option value="Pakistan" selected>Pakistan</option>
+            <option value="India">India</option>
+            <option value="China">China</option>
+            <option value="Uk">Uk</option>
+            <option value="Usa">Usa</option>
+        </select>
+        <input type="file" required />
+        <label>
+            UserName
+            <input type="text" />
+        </label>
+        <fieldset>
+            <legend>Contact Details</legend>
+            <input type="text" placeholder="Enter your Name" />
+            <input type="email" placeholder="Enter your Email" />
+            <label>
+                User Name
+                <input type="text" />
+            </label>
+            <label>
+                Email
+                <input type="email" />
+            </label>
+        </fieldset>
+        <input type="email" required />
+        <input type="date" required />
+        <input type="url" required />
+        <input type="search" required />
+        <button type="submit">Submit</button>
+    </form> -->
+
+
+
+
+
+
+    <!-- <iframe width="560" height="315" src="https://maps.app.goo.gl/jS6AvhjZqdGfESD2A"
+        title="Google Location" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+    <!-- <iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials"> -->
+
+
+
+    <!-- <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa aspernatur facilis, quo illum voluptatem,
+        mollitia maxime a sunt fugiat accusamus commodi error necessitatibus cumque harum laborum optio delectus beatae
+        magnam ipsa. Deleniti aut architecto amet voluptatem consequatur quis numquam, autem ab magni maiores ut beatae
+        labore repellat error. Magni, quidem. Dicta enim architecto, neque cumque quod eius maiores ipsam fugit, tenetur
+        dolorem molestiae id nemo nostrum nihil, sit cum deserunt reprehenderit rerum voluptas quisquam tempora vel
+        eaque. Minus blanditiis modi ex non similique! Animi quidem, corrupti quos odit possimus repudiandae nihil
+        quaerat similique consequuntur sequi ratione laboriosam earum! Amet, non?
+    </p> -->
+
+
+    <form action="#" method="post">
+        <input class="text-box" type="text" name="name" placeholder="Enter Your Name" /> <br /> <br />
+        <input class="text-box" type="email" name="email" placeholder="Enter Your Email" /> <br /> <br />
+        <input class="text-box" type="password" name="password" placeholder="Enter Your Password" /> <br /> <br />
+        <input type="radio" name="gender" /> Male
+        <input type="radio" name="gender" />Female
+        <button id="btn">Submit</button>
+        <!-- <input type="text" name="" placeholder="Enter Your Name" /> -->
     </form>
+
+
 </body>
 
 </html>
