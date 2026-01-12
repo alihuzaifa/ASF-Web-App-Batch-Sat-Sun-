@@ -1,0 +1,45 @@
+/* h1 {
+    border: 1px solid black;
+    width: 200px;
+    display: none;
+    height: 200px;
+    margin: 100px 40px;
+    padding: 30px 50px;
+    visibility: hidden;
+} */
+
+
+/* h2 {
+    border: 1px solid black;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 100px;
+} */
+
+/* .box {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 250px;
+    border-radius: 50%;
+} */
+
+
+/* li {
+    list-style-type: upper-roman;
+    list-style-position: inside;
+    list-style: upper-roman outside;
+    border: 1px solid black;
+} */
+
+
+table,
+tr,
+td,
+th {
+    border: 1px solid black;
+}
+
+table {
+    empty-cells: hide;
+}
