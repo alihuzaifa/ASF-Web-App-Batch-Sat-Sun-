@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --primary-color: red;
+    --secondary-color: white;
+    --theme-color: black;
+    --y-padding: 20px;
+}
+
+
+.box {
+    background-color: var(--primary-color);
+    height: 100vh;
+}
+
+
+
+/* 
+Rule 1: Always write media query at the bottom of your file
+Rule 2 Min-width Bottom to Top
+Rule:3 Max-width Top to bottom
+*/
+
+/* @media screen and (min-width: 480px) {
+    .box {
+        background-color: green;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .box {
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .box {
+        background-color: yellow;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .box {
+        background-color: orange;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .box {
+        background-color: brown;
+    }
+} */
